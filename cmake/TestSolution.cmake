@@ -7,7 +7,7 @@ function(add_gtest TARGET)
     add_psds_executable(${TARGET} ${ARGN})
     target_link_libraries(${TARGET} PRIVATE GTest::gtest GTest::gtest_main)
     set_target_properties(${TARGET} PROPERTIES
-        RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/tasks
+        RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_TASKS_DIR}
     )
 endfunction()
 

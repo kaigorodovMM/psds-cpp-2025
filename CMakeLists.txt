@@ -11,6 +11,8 @@ option(BUILD_EXAMPLES_02_WEEK "Build examples for 02_week" OFF)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 find_package(GoogleTest REQUIRED)
 
+set(CMAKE_BINARY_TASKS_DIR ${CMAKE_BINARY_DIR}/tasks)
+
 include(cmake/TestSolution.cmake)
 include(cmake/AsanFlags.cmake)
 
