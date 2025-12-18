@@ -11,10 +11,5 @@ add_subdirectory(tasks)
 
 # Создать исполняемый файл для каждого примера
 if (BUILD_EXAMPLES_04_WEEK)
-<<<<<<< HEAD
-#    add_example(struct_examples ${EXAMPLES_DIR}/struct_examples.cpp)
-endif()
-=======
 #    add_example(class_examples ${EXAMPLES_DIR}/class_examples.cpp)
 endif()
->>>>>>> 2eafd557ce1d36fb50e5e9b2cf92b64841d54edc
